@@ -1,12 +1,6 @@
 package main
 
-//
-//func main() {
-//	arr := []int{0, 1, 0, 1, 0, 1, 99}
-//	fmt.Println(singleNumber(arr))
-//}
-
-func singleNumberII(nums []int) int {
+func singleNumber(nums []int) int {
 	counts := make(map[int]int)
 	for _, val := range nums {
 		counts[val] += 1
