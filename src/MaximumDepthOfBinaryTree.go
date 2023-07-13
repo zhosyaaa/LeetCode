@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
-func main() {
-	p := &TreeNode{Val: 1}
-	p.Left = &TreeNode{Val: 2}
-	fmt.Println(maxDepth(p))
-}
+//func main() {
+//	p := &TreeNode{Val: 1}
+//	p.Left = &TreeNode{Val: 2}
+//	fmt.Println(maxDepth(p))
+//}
 
 func maxDepth(root *TreeNode) int {
 	if root == nil {
