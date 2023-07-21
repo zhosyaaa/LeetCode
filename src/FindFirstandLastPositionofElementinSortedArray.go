@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-func main() {
-	arr := []int{5, 8, 7, 8, 8, 10}
-	fmt.Println(searchRange(arr, 8))
-}
+//func main() {
+//	arr := []int{5, 8, 7, 8, 8, 10}
+//	fmt.Println(searchRange(arr, 8))
+//}
 
 func searchRange(nums []int, target int) []int {
 	if nums == nil || len(nums) == 0 {
